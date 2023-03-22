@@ -1,0 +1,18 @@
+{
+  "name": "sauce",
+  "version": "1.0.0",
+  "description": "Sauce Testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "testcafe chrome tests/sauce.ts"
+  },
+  "author": "Dilakshi Lamahewa",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=19.1.0",
+    "npm": ">=8.19.2"
+  },
+  "devDependencies": {
+    "testcafe": "^2.4.0"
+  }
+}
